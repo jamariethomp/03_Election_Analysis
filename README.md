@@ -1,32 +1,23 @@
 # Election Analysis
 
-## Project Overview
-A Colorado board of elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
+A Colorado Board of Elections employee tasked me with completing an election audit of a recent congressional election. The audit required a count of the total number of votes cast, a breakdown of votes by county, a breakdown of votes by candidate, and an overview of the winning candidate's votes.
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+## Results
 
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.7, Visual Studio Code 1.63.2
+![analysis outcomes](https://user-images.githubusercontent.com/94264643/148670814-466c82a2-ee8c-4473-855c-69cbb53614be.png)
 
-## Summary
-The analysis of the election shows that:
-- There were "x" votes cast in the election.
-- The candidates were:
-  - Candidate 1
-  - Candidate 2
-  - Canddidate 3
-- The candidate results were:
-  - Candidate 1 received "x%" of the vote and "y" number of votes.
-  - Candidate 2 received "x%" of the vote and "y" number of votes.
-  - Candidate 3 recieved "x%" of the vote and "y" number of votes.
-- The winner of the election was:
-  - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
+- Within the data sample provided, a total of **369,711 votes** were analyzed for this election.
+- The **vote count breakdown by county** is as follows:
+  - Jefferson County: 10.5% of vote (38,855 votes)
+  - Denver County: 82.8% of vote (306,055 votes)
+  - Arapahoe County: 6.7% of vote (24,801 votes)
+- Of the counties audited, **Denver County** had the highest percentage of voter turnout.
+- The **vote count breakdown by candidate** is as follows:
+  - Charles Casper Stockham: 23.0% of vote (85,213 votes)
+  - Diana DeGette: 73.8% of vote (272,892 votes)
+  - Raymon Anthony Doane: 3.1% of vote (11,606 votes)
+- The winner of the election, **Diana DeGette**, received 73.8% of the vote with a total of 272,892 votes.
 
-## Challenge Overview
-
-## Challenge Summary
+## Election Audit Summary
+The code used to audit this election may be re-used for future elections, including elections held outside of this congressional district, as it is not district-specific. The code may be modified to accomodate less - or additional - data (for example, additional data may be available to analyze voter demographics against voter turnout, in which case additional code would need to be incorporated). Of course, if the auditor wants to exclude a summary of voter turnout by county, the corresponding code may be removed.
