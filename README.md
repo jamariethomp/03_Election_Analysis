@@ -20,7 +20,7 @@ A Colorado Board of Elections employee tasked me with completing an election aud
 - The winner of the election, **Diana DeGette**, received 73.8% of the vote with a total of 272,892 votes.
 
 ## Election Audit Summary
-The code used to audit this election may be re-used for future elections, including elections held outside of this congressional district, as it is not district-specific. The code may be modified to accomodate less - or additional - data (for example, additional data may be available to analyze voter demographics against voter turnout, in which case additional code would need to be incorporated). Of course, if the auditor wants to exclude a summary of voter turnout by county, the corresponding code may be removed or substituted with alternative information:
+The code used to audit this election may be re-used for future elections, including elections held outside of this congressional district, as it is not district-specific. The code may be modified to accomodate less - or additional - data (for example, additional data may be available to analyze voter demographics against voter turnout or geographic area, in which case additional code would need to be incorporated). Of course, if the auditor wants to exclude a summary of voter turnout by county, the corresponding code may be removed or substituted with alternative information:
 
 ![county info](https://user-images.githubusercontent.com/94264643/148670984-d220fa6b-acc8-4018-85e4-05f955b05b2d.png)
 
